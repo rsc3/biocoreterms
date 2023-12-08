@@ -1,0 +1,7 @@
+id: biocoreterms
+title: BioCore Terms Application Ontology
+github_org: rsc3
+repo: biocoreterms
+import_group:
+  products:
+    - id: mondo

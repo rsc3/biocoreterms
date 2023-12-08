@@ -1,0 +1,28 @@
+# PURL configuration for http://purl.obolibrary.org/obo/biocoreterms
+
+idspace: BIOCORETERMS
+base_url: /obo/biocoreterms
+
+products:
+- biocoreterms.owl: https://raw.githubusercontent.com/rsc3/biocoreterms/main/biocoreterms.owl
+- biocoreterms.obo: https://raw.githubusercontent.com/rsc3/biocoreterms/main/biocoreterms.obo
+
+term_browser: ontobee
+example_terms:
+- BIOCORETERMS_0000000
+
+entries:
+
+- prefix: /releases/
+  replacement: https://raw.githubusercontent.com/rsc3/biocoreterms/v
+
+- prefix: /tracker/
+  replacement: https://github.com/rsc3/biocoreterms/issues
+
+- prefix: /about/
+  replacement: http://www.ontobee.org/ontology/BIOCORETERMS?iri=http://purl.obolibrary.org/obo/
+
+## generic fall-through, serve direct from github by default
+- prefix: /
+  replacement: https://raw.githubusercontent.com/rsc3/biocoreterms/main/
+
