@@ -2,7 +2,7 @@
 ![Build Status](https://github.com/rsc3/biocoreterms/workflows/CI/badge.svg)
 # BioCore Terms Application Ontology
 
-Description: None
+Description: BioCoreTerms consists of an ontology for two terms used for labeling biomedical molecular data: DataModality and BioSampleType. The first identifies modalities without specific reference to experimental methods, indicating the purpose of a molecular study. The second identifies the contents of a biological specimen, which might be further characterized by detailed ontologies such as CL, CLO, MONDO, or UBERON. The primary use cases are to label the DataModality of a specific biomedical study (which may be an array) and to label specimens in a table of BioSamples to answer the general question "What was in the test tube?"
 
 More information can be found at http://obofoundry.org/ontology/biocoreterms
 
